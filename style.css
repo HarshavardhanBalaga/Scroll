@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family:monospace;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+#nav1 h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav2{
+    cursor: pointer;
+    font-weight: 200;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 0px 40px;
+    cursor: pointer;
+}
+#nav3{
+    padding: 0px 40px;
+    cursor: pointer;
+}
+button{
+    padding: 6px 12px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    background-color: white;
+    cursor: pointer;
+}
+#b{
+    background-color: orangered;
+    border: none;
+    color: #fff;
+}
+#main>h1{
+    font-size: 150px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+img{
+    position: absolute;
+    border-radius: 20px;
+    height: 400px;
+    width: 330px;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#bottom{
+    position: absolute;
+    font-size: 16px;
+    bottom: 5%;
+    left: 3%;
+}
+#main>i{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    font-size: 30px;
+    border: 2px solid #000;
+    border-radius: 100px;
+    padding: 3px 4px;
+    cursor: pointer;
+}
+#b-right{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    justify-content: space-around;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#b:hover{
+    background-color: #000;
+    color: orangered;
+}
+#b{
+    transition: background-color 400ms ease-in-out;
+}
